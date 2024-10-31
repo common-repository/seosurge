@@ -1,0 +1,59 @@
+#results-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#results-table td, #results-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#results-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#results-table tr:hover {background-color: #ddd;}
+
+#results-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #299fc3;
+  color: white;
+}	
+	
+  .seosurge-container {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex-direction: column; 
+  }
+  .seosurge-form-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  select {
+    flex: 1;
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    height: 40px; 
+    box-sizing: border-box; 
+	margin-right: 10px;  
+  }
+
+  #results {
+    margin-top: 20px;
+  }	
